@@ -50,7 +50,7 @@ export class AccountController {
         try {
             const input = {
                 id: req.body.id,
-                ownerId: req.body.owner_id
+                ownerId: req.body.ownerId
             }
 
             const accountBusiness = new AccountBusiness()
